@@ -1,7 +1,35 @@
 /* Green color pallet main color #008400 and light to dark #2DB42D, #0E9D0E, #006900, #004700 */
 
 /* Body styling */
+/* font-family: 'Roboto', sans-serif;  */
 
 body {
   background-color: #008400;
+  background-color: hsla(10%,10%,10%,0.1);
+ }
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #004700;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+a:link {
+  color: #004700;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #2DB42D;
+}
+
+hr {
+  border-width: 2px;
+  border-color: #0E9D0E;
 }
