@@ -1,0 +1,103 @@
+/* Atoms - color */
+#background {
+	background-color: #008400;
+}
+
+#lightest {
+	background-color: #2DB42D;
+}
+
+#light {
+	background-color: #0E9D0E;
+}
+
+#darker {
+	background-color: #006900;
+}
+
+#dark {
+	background-color: #004700;
+}
+
+li {
+	width: 200px;
+	margin: 10px;
+}
+
+
+/* Atoms - text */
+
+.text {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+.lgt {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.med {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.bld {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+
+
+a:link {
+	color: #004700;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #2DB42D;
+}
+
+a:visited {
+	color: #0E9D0E;
+}
+
+/* molecules */
+
+/*nav {
+	list-style-type: none;
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	text-align: right;
+}*/
+
+.horizontal {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	display: inline;
+}
+
+.center {
+	text-align: center;
+}
+
+img {
+	border: 4px solid #0E9D0E;
+	margin: 5 5 5 5;
+}
+
+
+figcaption {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+/*pattern page formatting*/
+
+h1 {
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+h2 {
+	background-color: blue;
+}
