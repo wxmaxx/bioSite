@@ -17,7 +17,13 @@ h1, h2 {
 p {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 16px;
+}
+
+nav {
+	padding: 5px;
+	float: right;
+	clear: both;
 }
 
 a:link {
@@ -32,4 +38,38 @@ a:visited {
 hr {
   border-width: 2px;
   border-color: #0E9D0E;
+}
+
+
+/* from patterns css */
+.horizontal {
+	font-family: 'Roboto', sans-serif;
+	padding: 5px;
+	font-size: 22px;
+	font-weight: 500;
+	display: inline;
+}
+
+.center {
+	text-align: center;
+}
+
+img {
+	border: 4px solid #0E9D0E;
+	margin: 5 5 5 5;
+}
+
+.artist {
+	height: 220px;
+	width: 170px;
+	float: left;
+}
+
+a.noLine {
+	text-decoration: none;
+}
+
+figcaption {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 }
