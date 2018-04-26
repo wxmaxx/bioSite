@@ -5,7 +5,7 @@
 
 body {
   background-color: #008400;
-  background-color: hsla(10,10%,10%,0.5);
+  background-color: hsla(10,10%,10%,0.3);
  }
 
 h1, h2 {
@@ -17,13 +17,15 @@ h1, h2 {
 p {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 22px;
+  /* position: static; */
+  text-indent: 30px;
+  width: 600px;
 }
 
 nav {
 	padding: 5px;
-	float: right;
-	clear: both;
+	position: static;
 }
 
 a:link {
@@ -45,13 +47,22 @@ hr {
 .horizontal {
 	font-family: 'Roboto', sans-serif;
 	padding: 5px;
-	font-size: 22px;
+	font-size: 16px;
 	font-weight: 500;
 	display: inline;
 }
 
 .center {
 	text-align: center;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+	clear: both;
 }
 
 img {
@@ -71,5 +82,33 @@ a.noLine {
 
 figcaption {
 	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
 	font-weight: 400;
+	text-align: center;
 }
+
+figure {
+	float: right;
+}
+
+p::first-letter {
+  font-size: 30px;
+  font-weight: bold;
+  color: #004700;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.box>*:first-child {
+  align-self: flex-start;
+}
+
+
+
+/* .clear {
+  clear: both;
+} */
