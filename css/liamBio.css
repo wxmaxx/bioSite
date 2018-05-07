@@ -20,55 +20,6 @@ p {
   font-size: 22px;
   /* position: static; */
   text-indent: 30px;
-  width: 800px;
-}
-
-p::first-letter {
-  font-size: 30px;
-  font-weight: bold;
-  color: #004700;
-}
-
-hr {
-  border-width: 2px;
-  border-color: #0E9D0E;
-}
-
-nav {
-	padding: 5px;
-	position: static;
-}
-
-/* Link styling.  Because some of the H1 elements have navigation, keeping the link and visited the same color */
-
-a:link {
-  color: #004700;
-  text-decoration: underline;
-}
-
-a:visited {
-  color: #004700;/* Green color pallet main color #008400 and light to dark #2DB42D, #0E9D0E, #006900, #004700 */
-/* font-family: 'Roboto', sans-serif;  */
-
-/* Body and paragraph styling */
-
-body {
-  background-color: #008400;
-  background-color: hsla(10,10%,10%,0.3);
- }
-
-h1, h2 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  color: #004700;
-}
-
-p {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 22px;
-  /* position: static; */
-  text-indent: 30px;
   min-width: 400px;
   max-width: 900px;
 }
@@ -154,72 +105,6 @@ figcaption {
 a.noLine {
 	text-decoration: none;
 }
-
-/* CSS Flex to control flow of content inside of the section tags */
-
-.box {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-
-.box>*:first-child {
-  align-self: flex-start;
-}
-
-}
-
-/* Formatting for figures */
-
-img {
-	border: 4px solid #0E9D0E;
-	margin: 5 5 5 5;
-}
-
-.artist {
-	height: 220px;
-	width: 170px;
-	float: left;
-}
-
-figcaption {
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
-	font-weight: 400;
-	text-align: center;
-}
-
-figure {
-	float: right;
-}
-
-
-/* from patterns css */
-.horizontal {
-	font-family: 'Roboto', sans-serif;
-	padding: 5px;
-	font-size: 16px;
-	font-weight: 500;
-	display: inline;
-}
-
-.center {
-	text-align: center;
-}
-
-.left {
-	float: left;
-}
-
-.right {
-	float: right;
-	clear: both;
-}
-
-a.noLine {
-	text-decoration: none;
-}
-
 
 /* CSS Flex to control flow of content inside of the section tags */
 
